@@ -1,3 +1,4 @@
+const Product = require('../../domain/entities/product.entity');
 class UpdateProductUseCase {
   constructor(productRepository) {
     this.productRepository = productRepository;
