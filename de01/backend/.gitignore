@@ -1,0 +1,65 @@
+# 👉 Node modules
+node_modules/
+
+# 👉 Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 👉 Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 👉 Environment variables
+.env
+.env.local
+.env.*.local
+
+# 👉 OS/Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# 👉 Coverage reports
+coverage/
+*.lcov
+
+# 👉 Build output
+dist/
+build/
+temp/
+tmp/
+
+# 👉 Optional: React specific (nếu có frontend)
+frontend/node_modules/
+frontend/build/
+
+# 👉 Optional: logs for PM2 or other process managers
+*.pm2.log
+
+# 👉 Optional: Ignore database files if using local DB
+*.sqlite
+*.sqlite3
+*.db
+
+# 👉 Ignore uploads if needed
+uploads/
+public/uploads/
+
+# 👉 Ignore compiled TypeScript (nếu dùng)
+*.tsbuildinfo
+
+# 👉 Ignore testing outputs
+jest-coverage/
+test-results/
+
+# 👉 Ignore package-lock or yarn.lock (tuỳ nhóm)
+# package-lock.json
+# yarn.lock
